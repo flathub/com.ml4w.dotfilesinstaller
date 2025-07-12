@@ -1,10 +1,10 @@
 {
-    "id" : "com.ml4w.dotfilesinstaller",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "dotfiles-installer",
-    "finish-args" : [
+    "id": "com.ml4w.dotfilesinstaller",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "48",
+    "sdk": "org.gnome.Sdk",
+    "command": "dotfiles-installer",
+    "finish-args": [
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
@@ -12,7 +12,7 @@
         "--socket=wayland",
         "--filesystem=home"
     ],
-    "cleanup" : [
+    "cleanup": [
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -23,7 +23,7 @@
         "*.la",
         "*.a"
     ],
-	"modules" : [
+    "modules": [
         {
             "name": "git",
             "make-args": [
@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.46.2.tar.xz",
-                    "sha256": "5ee8a1c68536094a4f7f9515edc154b12a275b8a57dda4c21ecfbf1afbae2ca3",
+                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.50.1.tar.xz",
+                    "sha256": "7e3e6c36decbd8f1eedd14d42db6674be03671c2204864befa2a41756c5c8fc4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
@@ -49,13 +49,13 @@
             ]
         },
         {
-            "name" : "dotfiles-installer",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "dotfiles-installer",
+            "builddir": true,
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://github.com/mylinuxforwork/dotfiles-installer",
+                    "type": "git",
+                    "url": "https://github.com/mylinuxforwork/dotfiles-installer",
                     "tag": "0.8.7"
                 }
             ]
