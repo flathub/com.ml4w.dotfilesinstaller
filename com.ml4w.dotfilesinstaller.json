@@ -47,7 +47,8 @@
                     }
                 }
             ]
-        },{
+        },
+        {
             "name": "dotfiles-installer",
             "builddir": true,
             "buildsystem": "meson",
@@ -55,7 +56,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mylinuxforwork/dotfiles-installer",
-                    "tag": "0.8.7"
+                    "tag": "0.8.8"
                 }
             ]
         }
