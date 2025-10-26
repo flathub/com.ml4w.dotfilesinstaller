@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.50.1.tar.xz",
-                    "sha256": "7e3e6c36decbd8f1eedd14d42db6674be03671c2204864befa2a41756c5c8fc4",
+                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.51.1.tar.xz",
+                    "sha256": "a83fd9ffaed7eee679ed92ceb06f75b4615ebf66d3ac4fbdbfbc9567dc533f4a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
@@ -48,7 +48,7 @@
                 }
             ]
         },
-	    {
+        {
             "name": "rsync",
             "buildsystem": "autotools",
             "sources": [
@@ -58,7 +58,7 @@
                     "sha256": "2924bcb3a1ed8b551fc101f740b9f0fe0a202b115027647cf69850d65fd88c52"
                 }
             ]
-        },        
+        },
         {
             "name": "dotfiles-installer",
             "builddir": true,
