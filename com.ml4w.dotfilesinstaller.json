@@ -1,7 +1,7 @@
 {
     "id": "com.ml4w.dotfilesinstaller",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "dotfiles-installer",
     "finish-args": [
@@ -13,15 +13,7 @@
         "--filesystem=home"
     ],
     "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
+        "/share/man"
     ],
     "modules": [
         {
@@ -37,8 +29,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.52.0.tar.xz",
-                    "sha256": "3cd8fee86f69a949cb610fee8cd9264e6873d07fa58411f6060b3d62729ed7c5",
+                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.53.0.tar.xz",
+                    "sha256": "5818bd7d80b061bbbdfec8a433d609dc8818a05991f731ffc4a561e2ca18c653",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
